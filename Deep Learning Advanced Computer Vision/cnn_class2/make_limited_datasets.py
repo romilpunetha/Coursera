@@ -15,13 +15,13 @@ mkdir('../large_files/fruits-360-small')
 
 classes = [
   'Apple Golden 1',
-  'Avocado',
-  'Lemon',
-  'Mango',
-  'Kiwi',
+  # 'Avocado',
+  # 'Lemon',
+  # 'Mango',
+  # 'Kiwi',
   'Banana',
   'Strawberry',
-  'Raspberry'
+  # 'Raspberry'
 ]
 
 train_path_from = os.path.abspath('../large_files/fruits-360/Training')

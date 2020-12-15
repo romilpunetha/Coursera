@@ -1,0 +1,383 @@
+{
+    "version": 2,
+    "clusters": [
+        {
+            "name": "curefit-stage",
+            "_services": [
+                {
+                    "namespace": "offer-service",
+                    "workloadType": "deployment",
+                    "workloadName": "offer-service",
+                    "forwards": [
+                        {
+                            "localPort": 7878,
+                            "remotePort": 7878,
+                            "id": "8644984f-e000-45c6-aa44-730fe6104ee6"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "antman",
+                    "workloadType": "deployment",
+                    "workloadName": "antman",
+                    "forwards": [
+                        {
+                            "localPort": 3016,
+                            "remotePort": 3016,
+                            "id": "897d30ed-c010-441f-a3c2-e014f19fcc39"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "hercules",
+                    "workloadType": "deployment",
+                    "workloadName": "hercules",
+                    "forwards": [
+                        {
+                            "localPort": 9009,
+                            "remotePort": 9009,
+                            "id": "4a157870-0e77-4b6b-9dc8-8d4495e0145e"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "fitcash",
+                    "workloadType": "deployment",
+                    "workloadName": "fitcash",
+                    "forwards": [
+                        {
+                            "localPort": 5115,
+                            "remotePort": 5115,
+                            "id": "2bfc2121-d604-4440-a09e-c8927743e4d5"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "diy-fulfilment-service",
+                    "workloadType": "deployment",
+                    "workloadName": "diy-fulfilment-service",
+                    "forwards": [
+                        {
+                            "localPort": 5010,
+                            "remotePort": 5010,
+                            "id": "0b79431d-606f-47cc-97c3-3659386c10fb"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "ramsay",
+                    "workloadType": "deployment",
+                    "workloadName": "ramsay",
+                    "forwards": [
+                        {
+                            "localPort": 3008,
+                            "remotePort": 3008,
+                            "id": "56823c19-933f-49f5-bb33-a3f795a98355"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "constello",
+                    "workloadType": "deployment",
+                    "workloadName": "constello",
+                    "forwards": [
+                        {
+                            "localPort": 5225,
+                            "remotePort": 5225,
+                            "id": "77110a94-eebc-4d48-8080-745333988a84"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "maximus",
+                    "workloadType": "deployment",
+                    "workloadName": "maximus",
+                    "forwards": [
+                        {
+                            "localPort": 5007,
+                            "remotePort": 5007,
+                            "id": "5e354e58-81b0-4e74-b174-9f2d8ad9f5c0"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "cult-api",
+                    "workloadType": "deployment",
+                    "workloadName": "cult-api",
+                    "forwards": [
+                        {
+                            "localPort": 5005,
+                            "remotePort": 5000,
+                            "id": "ea88900b-01c0-45d4-a6b3-7a410bcd803b"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "user-service",
+                    "workloadType": "deployment",
+                    "workloadName": "user-service",
+                    "forwards": [
+                        {
+                            "localPort": 5001,
+                            "remotePort": 5000,
+                            "id": "897d30ed-c010-441f-a3c2-e014f19fcc39"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "maxmind",
+                    "workloadType": "deployment",
+                    "workloadName": "maxmind",
+                    "forwards": [
+                        {
+                            "localPort": 13001,
+                            "remotePort": 13001,
+                            "id": "5566efe7-07a3-4f57-ada4-dc515577a6d2"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "eatapi",
+                    "workloadType": "deployment",
+                    "workloadName": "eatapi",
+                    "forwards": [
+                        {
+                            "localPort": 6009,
+                            "remotePort": 6009,
+                            "id": "902304de-10fc-4251-bdf0-ed0d4104d4b0"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "gymfit",
+                    "workloadType": "deployment",
+                    "workloadName": "gymfit",
+                    "forwards": [
+                        {
+                            "localPort": 5020,
+                            "remotePort": 5020,
+                            "id": "92e8687e-7bb3-4070-bd6a-2eb6b6de916e"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "logging-service",
+                    "workloadType": "deployment",
+                    "workloadName": "logging-service",
+                    "forwards": [
+                        {
+                            "localPort": 5070,
+                            "remotePort": 5070,
+                            "id": "1a90b75e-26b9-4037-ac6c-94b6701adec4"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "quest",
+                    "workloadType": "deployment",
+                    "workloadName": "quest",
+                    "forwards": [
+                        {
+                            "localPort": 5009,
+                            "remotePort": 5009,
+                            "id": "5e2091c6-d52e-40b9-b47d-f41e2e5a9727"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "cfs",
+                    "workloadType": "deployment",
+                    "workloadName": "cfs",
+                    "forwards": [
+                        {
+                            "localPort": 5067,
+                            "remotePort": 5067,
+                            "id": "11969f4e-c551-4cb5-ad5e-f8964bd5e04e"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "hamlet",
+                    "workloadType": "deployment",
+                    "workloadName": "hamlet",
+                    "forwards": [
+                        {
+                            "localPort": 9706,
+                            "remotePort": 9706,
+                            "id": "30f6b487-d71e-43fa-b845-b3d134381287"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "alfred",
+                    "workloadType": "deployment",
+                    "workloadName": "alfred",
+                    "forwards": [
+                        {
+                            "localPort": 3011,
+                            "remotePort": 3011,
+                            "id": "21806710-7276-43c6-a0c6-bd80d05ac656"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "recommendation-service",
+                    "workloadType": "deployment",
+                    "workloadName": "recommendation-service",
+                    "forwards": [
+                        {
+                            "localPort": 8013,
+                            "remotePort": 8013,
+                            "id": "9047df84-d041-40aa-bd59-da0669c84236"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "membership-service",
+                    "workloadType": "deployment",
+                    "workloadName": "membership-service",
+                    "forwards": [
+                        {
+                            "localPort": 8080,
+                            "remotePort": 8080,
+                            "id": "9047df84-d041-40aa-bd59-da0669c85236"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "segmentation-service",
+                    "workloadType": "deployment",
+                    "workloadName": "segmentation-service",
+                    "forwards": [
+                        {
+                            "localPort": 8081,
+                            "remotePort": 8080,
+                            "id": "9047df84-d041-40aa-bd59-da0669c95236"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "insurance-service",
+                    "workloadType": "deployment",
+                    "workloadName": "insurance-service",
+                    "forwards": [
+                        {
+                            "localPort": 5011,
+                            "remotePort": 5020,
+                            "id": "a26e1cae-8669-441a-924a-1c2ded50f3a8"
+                        }
+                    ]
+                },
+                {
+                    "namespace": "curefit-api-v2",
+                    "workloadType": "deployment",
+                    "workloadName": "curefit-api-v2",
+                    "forwards": [
+                        {
+                            "localPort": 8080,
+                            "remotePort": 8080,
+                            "id": "2bfc2121-d604-4440-a09e-c8927743e4d5"
+                        }
+                    ]
+                },
+                {
+                    "alias": "hogwarts",
+                    "namespace": "hogwarts",
+                    "workloadType": "service",
+                    "workloadName": "hogwarts-internal",
+                    "forwards": [
+                        {
+                            "localPort": 37000,
+                            "remotePort": 37000,
+                            "id": "adcdc2e0-78df-4f0c-adba-5d0716b3eeab"
+                        }
+                    ]
+                },
+                {
+                    "alias": "care-ollivander",
+                    "namespace": "ollivander",
+                    "workloadType": "service",
+                    "workloadName": "ollivander-internal",
+                    "forwards": [
+                        {
+                            "localPort": 36000,
+                            "remotePort": 36000,
+                            "id": "a15debe6-b44b-11ea-b0e2-0acb9d7032fa"
+                        }
+                    ]
+                },
+                {
+                    "alias": "care-recommendation-service",
+                    "namespace": "care-recommendation-service",
+                    "workloadType": "service",
+                    "workloadName": "care-recommendation-service-internal",
+                    "forwards": [
+                        {
+                            "localPort": 5687,
+                            "remotePort": 5687,
+                            "id": "41c4e958-c59e-11ea-b246-02b0974b3488"
+                        }
+                    ]
+                },
+                {
+                    "alias": "care-ehr",
+                    "namespace": "ehr",
+                    "workloadType": "service",
+                    "workloadName": "ehr-internal",
+                    "forwards": [
+                        {
+                            "localPort": 38000,
+                            "remotePort": 38000,
+                            "id": "4e8b13ca-d700-11ea-b0e2-0acb9d7032fa"
+                        }
+                    ]
+                },
+                {
+                    "alias": "albus",
+                    "namespace": "albus",
+                    "workloadType": "service",
+                    "workloadName": "albus-internal",
+                    "forwards": [
+                        {
+                            "localPort": 5069,
+                            "remotePort": 20000,
+                            "id":"c2860c6a-74b1-44a8-bd54-63cf13ebac37"
+                        }
+                    ]
+                },
+                {
+                    "alias": "care-sub-user",
+                    "namespace": "sub-user",
+                    "workloadType": "service",
+                    "workloadName": "sub-user-internal",
+                    "forwards": [
+                        {
+                            "localPort": 35000,
+                            "remotePort": 35000,
+                            "id": "eaa4e709-d873-11ea-838b-02b0974b3488"
+                        }
+                    ]
+                },
+                {
+                    "alias": "personal-trainer",
+                    "namespace": "personal-trainer",
+                    "workloadType": "service",
+                    "workloadName": "personal-trainer-internal",
+                    "forwards": [
+                        {
+                            "localPort": 5070,
+                            "remotePort": 8080,
+                            "id": "677cbe47-315e-4b08-9f81-99c10cdaa65d"
+                        }
+                    ]
+                }
+            ],
+            "config": {
+                "storingMethod": "content",
+                "path": "",
+                "content": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5RENDQWJDZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJd01UQXdOekV3TURVek1Gb1hEVE13TVRBd05URXdNRFV6TUZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBS2dkCmFNRGsvK0lxOUVHNm5pVlBFdE4zU0duQVNRVmNTSTUzWCtKcTFiT2JQcXBHaGU4dlNnekdiUGpha0htVFI0WEEKak4wbVA5R2tnMmlLOWxhUEswTFdTV1B0bzBjR1p2M0pBOVUxUDZETHhrMjExSVUxcnAvSzg5SHVXQUxBcFpqSApxaFNQRmJpL1RBNmxiTDdxR2hlQ3hQMUE3L2l6NStzTEFUNHVFWlI0OWtVM2NJMFEwem5QV3F1UFVqeDlSM2l5CnpUUXRYYnc3NUZ3RDdYMUVsQS8veEphc3prVkphZVNPVHhBbW1SaS9FY0hEMm43a0JtdjV0OU1GektqM3Jkc1kKa1FCcnNDSTFRZFV2TXVnb1VkUTZhYlNuSzk3dk41ck1SV2pPWHFDd0UyZHhMbUtUSVNvbUg5TFFONkRMelFUOQpMdjIzY1g2eERXUUZQQVhiZlZzQ0F3RUFBYU1qTUNFd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFJYU4zL1F6c0Z4U0kxRDFYQkU0dWF6aXN4Z1cKMGdUM1J1YUJibVpBaXVnbGM5OGVQTE1yOUcrcXE0eHBTUm85ZXV0cVpqNDZ3clp4MUUxWlpLTi9Za1NUNlVXNAp6amtFU3VCRk1rSjNjeDZ2N1NtQ1FzNGhkZTk3NENVSlkrOXNmcVRuUTM1MTJ3VUV3WllzYStiWkwzQWR5dlJOCkRhLy9MVWRwSjlxOFNhRWtSRE1MTGYrYlpLbzRjY2YvUG4rNnJ1bE5aeVhPeHdVT0NtMzNKNGx1R0RleGlTcloKeFYzQUVUYmh6eExUYlZEWHJxZ2UwRGJaZ1B2d0FpU0xPOVEzUjE0dkdpQ0FkWGNDbER1a1VBaE1QaXB3NGhobAphcnM3ODU5VklpTTZ3VHhkT1pwczE2dGJLdzc0cDVzL29Edk9JTmJOREJJbmZmQWZpdzJFa0hvTzY5MD0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=\n    server: https://549FC6297FEEF73C9AE2E51A2871542A.yl4.ap-south-1.eks.amazonaws.com\n  name: arn:aws:eks:ap-south-1:035243212545:cluster/curefit-eks-stage-primary-1-17\ncontexts:\n- context:\n    cluster: arn:aws:eks:ap-south-1:035243212545:cluster/curefit-eks-stage-primary-1-17\n    user: curefit-stage-migration-token-user\n  name: curefit-stage-migration\nkind: Config\npreferences: {}\nusers:\n- name: arn:aws:eks:ap-south-1:035243212545:cluster/curefit-eks-stage-primary-1-17\n  user:\n    exec:\n      apiVersion: client.authentication.k8s.io/v1alpha1\n      args:\n      - --region\n      - ap-south-1\n      - eks\n      - get-token\n      - --cluster-name\n      - curefit-eks-stage-primary-1-17\n      command: aws\n      env: null\n- name: curefit-stage-migration-token-user\n  user:\n    token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1PbXo1anl5T1dvMkJlVGtKYzBsNml1bXlhWXlNek5mb01hczBvMGItd2cifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJzcGlubmFrZXIiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlY3JldC5uYW1lIjoic3Bpbm5ha2VyLXNlcnZpY2UtYWNjb3VudC10b2tlbi04Njh4ciIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJzcGlubmFrZXItc2VydmljZS1hY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiNjNkZmEyYWYtMDEzMi00MTIwLWI4YTYtNzM4YmFhN2Q1ZDdjIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnNwaW5uYWtlcjpzcGlubmFrZXItc2VydmljZS1hY2NvdW50In0.Vle_DcfrYteCa60ihvpF0e66hYI_JCAA5umdClvWn8C9Dr-uLJVL7t6yfaj9dAbaEIMuL75FdWdXRuA5gF8eJX__uRvRih0tmhzDp7o3fXIzgLu3TZ69TCUZ0MWZWQkZYHOwWq7KgVG1_LIL9JUfly7Z7HQ7kMFl2V-FQCbeWGI-egwuyfxdsvuVDCVMgOmnLeJMqISjIoHl_tqo4TxBEQF6EffT_iaTdzavXlXEiJXC_KJdgsT7yyFq1Ms73vL-7fczypPSbM7Tb9r9pYti3PRyuJVyME0_n6YK5xVDsDkOtHymOrl9-a3Y65sQNlsWJ0fekIddTrGTpeZ8YvA6jw",
+                "currentContext": ""
+            }
+        }
+    ]
+}

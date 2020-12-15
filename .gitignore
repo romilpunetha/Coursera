@@ -154,3 +154,8 @@ dmypy.json
 # data files
 *.csv
 *.DS_Store
+
+repnet_ckpt/
+data/
+output/
+large_files/
